@@ -1,0 +1,54 @@
+$icons: 'materials', 'masters', 'guarantees', 'polish', 'geo', 'tel', 'mail';
+
+.item-guarantees__header {
+    &::before {
+        content: " ";
+        display: inline-block;
+        top: 0;
+        left: 0;
+        width: 71px;
+        height: 70px;
+        background-repeat: no-repeat;
+
+        margin-right: 30px;
+    }
+}
+
+.item-services__header {
+    &::before {
+        content: " ";
+        display: block;
+        top: 0;
+        left: 0;
+        width: 71px;
+        height: 70px;
+        background-repeat: no-repeat;
+        margin-bottom: 21px;
+    }
+}
+
+.item-services__adderss,
+.item-services__tel,
+.item-services__mail {
+    &::before {
+        content: " ";
+        display: inline-block;
+        top: 0;
+        left: 0;
+        width: 24px;
+        height: 24px;
+        background-repeat: no-repeat;
+    }
+}
+
+@each $icon in $icons {
+    .#{$icon}-icon::before {
+        background-image: url(../icons/guarantees/#{$icon}.svg);
+    }
+}
+
+@each $icon in $icons {
+    .#{$icon}-icon::before {
+        background-image: url(../icons/question-form//#{$icon}.svg);
+    }
+}

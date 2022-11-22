@@ -1,0 +1,89 @@
+.item-guarantees__header::before {
+  content: " ";
+  display: inline-block;
+  top: 0;
+  left: 0;
+  width: 71px;
+  height: 70px;
+  background-repeat: no-repeat;
+  margin-right: 30px;
+}
+
+.item-services__header::before {
+  content: " ";
+  display: block;
+  top: 0;
+  left: 0;
+  width: 71px;
+  height: 70px;
+  background-repeat: no-repeat;
+  margin-bottom: 21px;
+}
+
+.item-services__adderss::before,
+.item-services__tel::before,
+.item-services__mail::before {
+  content: " ";
+  display: inline-block;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+}
+
+.materials-icon::before {
+  background-image: url(../icons/guarantees/materials.svg);
+}
+
+.masters-icon::before {
+  background-image: url(../icons/guarantees/masters.svg);
+}
+
+.guarantees-icon::before {
+  background-image: url(../icons/guarantees/guarantees.svg);
+}
+
+.polish-icon::before {
+  background-image: url(../icons/guarantees/polish.svg);
+}
+
+.geo-icon::before {
+  background-image: url(../icons/guarantees/geo.svg);
+}
+
+.tel-icon::before {
+  background-image: url(../icons/guarantees/tel.svg);
+}
+
+.mail-icon::before {
+  background-image: url(../icons/guarantees/mail.svg);
+}
+
+.materials-icon::before {
+  background-image: url(../icons/question-form//materials.svg);
+}
+
+.masters-icon::before {
+  background-image: url(../icons/question-form//masters.svg);
+}
+
+.guarantees-icon::before {
+  background-image: url(../icons/question-form//guarantees.svg);
+}
+
+.polish-icon::before {
+  background-image: url(../icons/question-form//polish.svg);
+}
+
+.geo-icon::before {
+  background-image: url(../icons/question-form//geo.svg);
+}
+
+.tel-icon::before {
+  background-image: url(../icons/question-form//tel.svg);
+}
+
+.mail-icon::before {
+  background-image: url(../icons/question-form//mail.svg);
+}/*# sourceMappingURL=icons.css.map */
